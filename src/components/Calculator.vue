@@ -2,11 +2,12 @@
     <div>
         <el-row :gutter="20">
             <el-col :span="20">
-                <el-input placeholder="0"></el-input>
+                <el-input :value="value"></el-input>
             </el-col>
             <el-col :span="4">
-                <el-button type="danger">AC</el-button>
+                <el-button type="danger" @click.native="clear" >AC</el-button>
             </el-col>
+
         </el-row>
         <el-row :gutter="10">
             <el-col :span="6"><Operand value="1"></Operand></el-col>
@@ -38,13 +39,25 @@
 <script>
 import Operator from './Operator'
 import Operand from './Operand'
+import { mapState, mapActions } from 'vuex'
+
 
     export default {
         name: 'Calculator',
         components: {
             Operator,
             Operand
-        }
+        },
+        computed: mapState([
+            'value'
+        ]),
+        methods: mapActions([
+            'add',
+            'subtract',
+            'multiply',
+            'divide',
+            'clear'
+        ])
     }
 </script>
 

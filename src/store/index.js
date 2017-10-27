@@ -6,7 +6,7 @@ import * as actions from './actions'
 Vue.use(Vuex)
 
 const state = {
-    value = 0
+    value: 0
 }
 
 export default new Vuex.Store({

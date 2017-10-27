@@ -19,3 +19,7 @@ export const divide = ({commit}, value) => {
 export const clear = ({commit}) => {
     commit(types.CLEAR)
 }
+
+export const appendNumber = ({commit}, value) => {
+    commit(types.APPEND_NUMBER, {value})
+}
