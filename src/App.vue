@@ -2,19 +2,20 @@
   <div id="app">
     <el-container>
       <el-main>
-        There will be a superb calculator!
+        <Calculator></Calculator>
       </el-main>
     </el-container>
   </div>
 </template>
 
 <script>
+import Calculator from './components/Calculator'
 
 
 export default {
   name: 'app',
   components: {
-    
+    Calculator
   }
 }
 </script>
