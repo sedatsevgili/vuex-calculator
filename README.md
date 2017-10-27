@@ -1,6 +1,6 @@
 # calculator
 
-> A Vue.js project
+> A Calculator written with VueJs and Vuex. You can try it from [here](https://sedatsevgili.github.io/vuex-calculator/)
 
 ## Build Setup
 
@@ -19,3 +19,4 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
