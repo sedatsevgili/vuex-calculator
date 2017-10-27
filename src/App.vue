@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <el-container>
+      <el-main>
+        There will be a superb calculator!
+      </el-main>
+    </el-container>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
