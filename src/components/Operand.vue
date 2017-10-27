@@ -5,13 +5,13 @@
 <script>
 import {mapActions} from 'vuex'
 
-    export default {
-        name: 'Operand',
-        props: [
-            'value'
-        ],
-        methods: mapActions([
-            'appendNumber'
-        ])
-    }
+export default {
+    name: 'Operand',
+    props: [
+        'value'
+    ],
+    methods: mapActions([
+        'appendNumber'
+    ])
+}
 </script>
