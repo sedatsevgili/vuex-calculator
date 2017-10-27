@@ -24,7 +24,7 @@
             <el-col :span="6"><Operand value="7"></Operand></el-col>
             <el-col :span="6"><Operand value="8"></Operand></el-col>
             <el-col :span="6"><Operand value="9"></Operand></el-col>
-            <el-col :span="6"><Operator value="*"></Operator></el-col>
+            <el-col :span="6"><Operator value="X"></Operator></el-col>
         </el-row>
         <el-row :gutter="10">
             <el-col :span="6">&nbsp;</el-col>
